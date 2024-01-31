@@ -40,7 +40,7 @@
             <i class="fa-solid fa-pen fa-lg"></i>
         </a>
         <form action="/Category/Delete/${CategoryId}" method="post">
-            @Html.AntiForgeryToken()
+    @Html.AntiForgeryToken()
             <button type="submit" class="btn btn-sm btn-link no-a-decoration"
             onclick="return confirm(&qout;Are you sure to delete this record?&qout;)">
                 <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
@@ -48,3 +48,18 @@
         </form>
     </div>
 </script>
+
+<!--<script id="actionColumnTemplate" type="text/x-template">
+    <div class="d-flex flex-row justify-content-start">
+        <a class="btn btn-sm no-a-decoration" href="/Category/AddOrEdit/${CategoryId}">
+            <i class="fa-solid fa-pen fa-lg"></i>
+        </a>
+        <form action="/Category/Delete/${CategoryId}" method="post">
+            @Html.//AntiForgeryToken()
+            <button type="submit" class="btn btn-sm btn-link no-a-decoration"
+            onclick="return confirm(&qout;Are you sure to delete this record?&qout;)">
+                <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
+            </button>
+        </form>
+    </div>
+</script>-->

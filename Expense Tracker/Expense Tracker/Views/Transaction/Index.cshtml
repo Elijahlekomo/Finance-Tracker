@@ -1,11 +1,14 @@
 ﻿@model IEnumerable<Expense_Tracker.Models.Transaction>
 
 @{
-    ViewData["pageTitle"] = "Categories";
-    ViewData["pageActionText"] = "+ New Transaction";
-    ViewData["pageActionUrl"] = "/Transaction/AddOrEdit";
+    ViewData["Title"] = "Index";
 }
 
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
 <table class="table">
     <thead>
         <tr>
