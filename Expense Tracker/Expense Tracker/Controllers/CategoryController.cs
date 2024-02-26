@@ -21,15 +21,15 @@ namespace Expense_Tracker.Controllers
         // GET: Category
         public async Task<IActionResult> Index()
         {
-              return _context.Categories != null ? 
-                          View(await _context.Categories.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
+            return _context.Categories != null ?
+                        View(await _context.Categories.ToListAsync()) :
+                        Problem("Entity set 'ApplicationDbContext.Categories'  is null.");
         }
-       
+
         // GET: Category/AddOrEdit
         public IActionResult AddOrEdit(int id = 0)
         {
-            if(id == 0)
+            if (id == 0)
                 return View(new Category());
             else
                 return View(_context.Categories.Find(id));
@@ -44,7 +44,7 @@ namespace Expense_Tracker.Controllers
         {
             if (ModelState.IsValid)
             {
-                if(category.CategoryId == 0) 
+                if (category.CategoryId == 0)
                     _context.Add(category);
                 else
                     _context.Update(category);
@@ -54,7 +54,7 @@ namespace Expense_Tracker.Controllers
             return View(category);
         }
 
-       
+
 
         // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
@@ -70,11 +70,11 @@ namespace Expense_Tracker.Controllers
             {
                 _context.Categories.Remove(category);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-       
+
     }
 }
