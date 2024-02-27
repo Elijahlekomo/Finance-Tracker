@@ -1,5 +1,5 @@
 ## __About the project__  
-This Expense Tracker Application helps you manage your finances by keeping track of your spending. This project implements CRUD operations insert, update, and delete in ASP.net core MVC using entity framework core.
+This web App help users manage their finances by keeping track on thier expenses. This project implements CRUD operations insert, update, and delete in ASP.net core MVC using entity framework core.
 
 Built project with:
  - C#
@@ -7,6 +7,8 @@ Built project with:
  - HTML
  - CSS
  - JavaScript
+ - SQL Database
+ - Syncfusion
 
 
 	 
