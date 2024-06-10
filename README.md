@@ -14,7 +14,7 @@ Built project with:
 __Login Page__    
 
    
-__Register Page__  
+__Category Page__  
    
 
 
