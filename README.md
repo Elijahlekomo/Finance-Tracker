@@ -16,7 +16,6 @@ __Login Page__
    
 __Register Page__  
    
-<img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/AuthSystem/blob/main/Register%20Page.png">
 
 
 	 
