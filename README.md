@@ -13,7 +13,6 @@ Built project with:
 ## Screenshot of the project     
 __Login Page__    
 
-<img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/AuthSystem/blob/main/Login%20Page.png">
    
 __Register Page__  
    
