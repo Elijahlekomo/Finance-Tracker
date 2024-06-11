@@ -13,9 +13,12 @@ Built project with:
 ## Screenshot of the project     
 __Dashboard Page__    
 
-   
-__Category Page__  
-   
+  <img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/Expense-Tracker/blob/main/Expense%20Tracker/Dashboard.png">  
+  
+__Category Page__    
+
+  <img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/Expense-Tracker/blob/main/Expense%20Tracker/CategoryPage.png">  
+
 
 
 	 
