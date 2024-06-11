@@ -11,7 +11,7 @@ Built project with:
  - Syncfusion
    
 ## Screenshot of the project     
-__Login Page__    
+__Dashboard Page__    
 
    
 __Category Page__  
