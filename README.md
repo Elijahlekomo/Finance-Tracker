@@ -15,9 +15,17 @@ __Dashboard Page__
 
   <img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/Expense-Tracker/blob/main/Expense%20Tracker/Dashboard.png">  
   
+  __Dashboard Page 2__    
+
+  <img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/Expense-Tracker/blob/main/Expense%20Tracker/Dashboard1.png">  
+  
 __Category Page__    
 
   <img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/Expense-Tracker/blob/main/Expense%20Tracker/CategoryPage.png">  
+
+  __Transaction Page__    
+
+  <img width="960" alt="Webportfolioimg" src="https://github.com/Elijahlekomo/Expense-Tracker/blob/main/Expense%20Tracker/TransactionPage.png">  
 
 
 
